@@ -10,19 +10,19 @@ useEffect(()=>{
 },[])
     return(
         <div className="p-8 mx-6 border text-black bg-white border-gray-200 rounded-lg shadow sm:p-6 dark:border-gray-700">
-          <div className="W-3">
+          <div className="W-2">
              <div className="
            flex justify-between items-center">
              <h1 className="font-bold text-2xl">Patients</h1>
             <a href=""><img src="/src/assets/search.svg" alt="" /></a>
            </div>
           </div>
-          <ul>
+          <ul >
           {data.map((item)=>(     
-                    <div className="my-3">
-                      <div className=" card card-side shadow-sm">
+                    <div className="my-3 ">
+                      <div className="p-2 card card-side shadow-sm">
   <figure>
-    <img src={item.image}
+    <img className="h-30 w-30" src={item.profile_picture}
       alt="Movie" />
   </figure>
   <div className="card-body">
@@ -31,7 +31,7 @@ useEffect(()=>{
    
   </div>
 </div>
-                    </div>
+ </div>
 
            ))}
           </ul>

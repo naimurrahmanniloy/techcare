@@ -10,9 +10,7 @@ export default function Main() {
             <div className="row-span-4 row-start-1 ..."><LeftContent/></div>
   <div className="col-span-2 row-span-2..."><MainContent/></div>
   <div className="row-start-2 row-end-1 ..."><RightContent/></div>
-            
-            
-            
+                       
         </div>
     )
 }
