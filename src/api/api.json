@@ -1,0 +1,74 @@
+[
+  {
+    "img": "https://randomuser.me/api/portraits/men/10.jpg",
+    "name": "John Smith",
+    "gender": "Male",
+    "age": 28
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/women/11.jpg",
+    "name": "Sophia Brown",
+    "gender": "Female",
+    "age": 24
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/men/20.jpg",
+    "name": "Liam Johnson",
+    "gender": "Male",
+    "age": 35
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/women/21.jpg",
+    "name": "Emma Wilson",
+    "gender": "Female",
+    "age": 31
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/men/30.jpg",
+    "name": "Ethan Davis",
+    "gender": "Male",
+    "age": 40
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/women/31.jpg",
+    "name": "Olivia Miller",
+    "gender": "Female",
+    "age": 29
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/men/40.jpg",
+    "name": "James Anderson",
+    "gender": "Male",
+    "age": 33
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/women/41.jpg",
+    "name": "Ava Taylor",
+    "gender": "Female",
+    "age": 27
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/men/50.jpg",
+    "name": "Michael Moore",
+    "gender": "Male",
+    "age": 38
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/women/51.jpg",
+    "name": "Isabella Thomas",
+    "gender": "Female",
+    "age": 26
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/men/60.jpg",
+    "name": "Alexander Jackson",
+    "gender": "Male",
+    "age": 42
+  },
+  {
+    "img": "https://randomuser.me/api/portraits/women/61.jpg",
+    "name": "Mia White",
+    "gender": "Female",
+    "age": 30
+  }
+]
