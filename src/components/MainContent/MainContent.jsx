@@ -11,7 +11,7 @@ export default function MainContent() {
         <BloodPressureChart />
         <div className="grid grid-cols-3 gap-4 mt-10">
           <div>
-            <div className=" bg-blue-300 card w-50 shadow-sm">
+            <div className=" bg-blue-300 card w-60 shadow-sm">
               <figure className="px-10 pt-10">
                 <img src={img1} alt="Shoes" className="rounded-xl" />
               </figure>
@@ -24,7 +24,7 @@ export default function MainContent() {
           </div>
 
           <div>
-            <div className="bg-red-300 card w-50 shadow-sm">
+            <div className="bg-red-300 card w-60  shadow-sm">
               <figure className="px-10 pt-10">
                 <img src={img3} alt="Shoes" className="rounded-xl" />
               </figure>
@@ -37,7 +37,7 @@ export default function MainContent() {
           </div>
 
           <div>
-            <div className="bg-red-400 card w-50 shadow-sm">
+            <div className="bg-red-400 card w-60  shadow-sm">
               <figure className="px-10 pt-10">
                 <img src={img2} alt="Shoes" className="rounded-xl" />
               </figure>
@@ -53,6 +53,8 @@ export default function MainContent() {
           </div>
         </div>
       </div>
+
+      <div></div>
     </div>
   );
 }

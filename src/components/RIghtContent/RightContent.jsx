@@ -57,6 +57,11 @@ export default function RightContent() {
             <p>Sunrise Health Assurance</p>
           </div>
         </div>
+        <div>
+          <button className="btn ml-25 m-10 bg-blue-500 border-0 hover:bg-blue-700 rounded-2xl p-5">
+            Show All Information
+          </button>
+        </div>
       </div>
     </div>
   );
