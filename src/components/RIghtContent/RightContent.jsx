@@ -89,10 +89,6 @@ export default function RightContent() {
               <p>Blood Result</p>
               <img src={downloadImg} alt="" />
             </div>
-            <div className="flex justify-between mt-5">
-              <p>Blood Result</p>
-              <img src={downloadImg} alt="" />
-            </div>
           </div>
         </div>
       </div>
