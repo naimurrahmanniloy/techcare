@@ -1,3 +1,6 @@
+import React from "react";
+import downloadImg from "../../assets/download.svg";
+
 export default function RightContent() {
   return (
     <div>
@@ -17,8 +20,7 @@ export default function RightContent() {
             <img src="/src/assets/date.svg" alt="" />
           </div>
           <div>
-            <p>Date Of Birth</p>
-            <p>August 23,1996</p>
+            <p>Date Of Birth</p>S<p>August 23,1996</p>
           </div>
         </div>
         <div className="flex items-center p-3">
@@ -67,10 +69,30 @@ export default function RightContent() {
         <div className="card card-border mt-10 bg-white text-black w-96">
           <div className="card-body">
             <h2 className="card-title">Lab Result</h2>
-            <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
-            </p>
+            <div className="flex justify-between mt-5">
+              <p>Blood Result</p>
+              <img src={downloadImg} alt="" />
+            </div>
+            <div className="flex justify-between mt-5">
+              <p>Blood Result</p>
+              <img src={downloadImg} alt="" />
+            </div>
+            <div className="flex justify-between mt-5">
+              <p>Blood Result</p>
+              <img src={downloadImg} alt="" />
+            </div>
+            <div className="flex justify-between mt-5">
+              <p>Blood Result</p>
+              <img src={downloadImg} alt="" />
+            </div>
+            <div className="flex justify-between mt-5">
+              <p>Blood Result</p>
+              <img src={downloadImg} alt="" />
+            </div>
+            <div className="flex justify-between mt-5">
+              <p>Blood Result</p>
+              <img src={downloadImg} alt="" />
+            </div>
           </div>
         </div>
       </div>
