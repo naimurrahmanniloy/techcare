@@ -41,7 +41,15 @@ export default function RightContent() {
             <p>(415) 555-1234</p>
           </div>
         </div>
-
+        <div className="flex items-center p-3">
+          <div className="p-3">
+            <img src="/src/assets/contact.svg" alt="" />
+          </div>
+          <div>
+            <p>Emergency Contacts</p>
+            <p>(415) 555-1234</p>
+          </div>
+        </div>
         <div className="flex items-center p-3">
           <div className="p-3">
             <img src="/src/assets/InsuranceIcon.svg" alt="" />
