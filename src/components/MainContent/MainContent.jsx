@@ -42,6 +42,21 @@ export default function MainContent() {
       </div>
       <div className="p-10">
         <DiagnosticList></DiagnosticList>
+      </div>{" "}
+      <div>
+        <div className="bg-red-400 card w-60  shadow-sm">
+          <figure className="px-10 pt-10">
+            <img src={img2} alt="Shoes" className="rounded-xl" />
+          </figure>
+          <div className="card-body ">
+            <p>Heart Rate</p>
+            <h2 className="card-title">78 bpm</h2>
+            <small>
+              <img src="../../assets/" alt="" />
+              Lower than Average
+            </small>
+          </div>
+        </div>
       </div>
     </div>
   );
