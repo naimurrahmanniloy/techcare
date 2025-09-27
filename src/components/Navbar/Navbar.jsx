@@ -61,7 +61,40 @@ export default function Navbar() {
             <img src="/src/assets/TestLogo.svg" alt="" />
           </a>
         </div>
-
+        <div className="navbar-center hidden  lg:flex">
+          <ul className="menu menu-horizontal px-1">
+            <li className="p-4">
+              <a>
+                <img src="/src/assets/1.svg" alt="" />
+                Overview
+              </a>
+            </li>
+            <li className="p-4">
+              <a>
+                <img src="/src/assets/2.svg" alt="" />
+                Patient{" "}
+              </a>
+            </li>
+            <li className="p-2">
+              <a>
+                <img src="/src/assets/3.svg" alt="" />
+                Schadule
+              </a>
+            </li>
+            <li className="p-4">
+              <a>
+                <img src="/src/assets/4.svg" alt="" />
+                Massage
+              </a>
+            </li>
+            <li className="p-4">
+              <a>
+                <img src="/src/assets/5.svg" alt="" />
+                Transection
+              </a>
+            </li>
+          </ul>
+        </div>
         <div className="navbar-end p-4">
           <div className="flex gap-3">
             <img
